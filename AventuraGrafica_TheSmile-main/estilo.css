@@ -1,0 +1,64 @@
+.header-bg {
+    background-image: url("Data/MLH.png");
+    background-size: cover;       
+    background-position: center;  
+    background-repeat: no-repeat; 
+
+    padding: 60px 20px;           
+    text-align: center;              
+}
+
+h1 {
+     text-align: center;
+    color: 215, 165, 95;
+    font-family: "Oswald", sans-serif;
+}
+
+h2 {
+    color: 215, 165, 95;
+}
+
+h3 {
+    color: 215, 165, 95;
+}
+
+h4 {
+    color: 215, 165, 95;
+}
+
+h5 {
+    color: 215, 165, 95;
+}
+
+ nav a:hover {
+        color: rgb(255, 255, 255);
+        background-color: rgba(136, 35, 35, 0.6);
+        border-radius: 20px
+    }
+
+    nav a:active {
+    background-color: rgb(255, 0, 0);  /* Color al click */
+    scale: 0.97;  /* Efectito de presión opcional */
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: 255, 0, 0;
+    background-image:url(Data/BGAzul.png);
+    background-size: cover;
+
+}
+
+.footer-multi-bg {
+    background-image: 
+    url("Data/FooterIMG.png"),
+    url("data/MLH.png");
+    background-size: conain, cover;
+    background-position: center, center;
+    background-repeat: no-repeat, no-repeat;
+
+    padding: 30px;
+    text-align: center;
+
+    color: #640000b4; 
+}
